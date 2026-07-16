@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>Contact &amp; devis — MC Crépi, façadier à Lons-le-Saunier | 06 87 59 60 47</title>
+<meta name="description" content="Demandez votre devis gratuit à MC Crépi, façadier à Lons-le-Saunier. Téléphone 06 87 59 60 47, email zaff39@hotmail.fr, WhatsApp. Réponse sous 24–48 h. Jura et Bourg-en-Bresse.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth;scroll-padding-top:86px}
+body{margin:0;background:#FAFAF8;color:#1A1A1A;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+a{color:#111;text-decoration:none;transition:color .25s ease,background .25s ease,transform .25s ease,filter .25s ease,border-color .25s ease}
+a:hover{color:var(--accent,#F28C28)}
+::selection{background:var(--accent,#F28C28);color:#111}
+input,select,textarea{font-family:inherit}
+input::placeholder,textarea::placeholder{color:#A8A49C}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:80;opacity:.045;mix-blend-mode:multiply;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='180' height='180' filter='url(%23n)'/></svg>")}
+</style>
+</helmet>
+<div style="font-family:Inter,system-ui,sans-serif;background:#FAFAF8;color:#1A1A1A;overflow-x:clip;font-size:16px;line-height:1.5">
+
+<header id="mc-header" style="position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:26px clamp(20px,4.5vw,56px);transition:padding .35s ease,background .35s ease,box-shadow .35s ease">
+  <a href="Accueil.dc.html" style="display:flex;align-items:center;gap:12px">
+    <svg width="40" height="37" viewBox="100.7 87.3 173.6 160.8" aria-hidden="true"><path style="fill:#161513" fill-rule="evenodd" d="M 274.222656 234.4375 L 274.222656 247.976562 L 100.773438 247.976562 L 100.773438 234.4375 L 187.496094 211.984375 Z M 274.222656 183.476562 L 274.222656 212.769531 L 187.496094 188.28125 L 100.773438 212.769531 L 100.773438 183.476562 L 187.496094 143.140625 Z M 100.773438 162.453125 L 187.496094 121.054688 L 274.222656 162.453125 L 274.222656 137.457031 L 187.496094 87.371094 L 100.773438 137.457031 Z"></path><path style="fill:var(--accent,#F28C28)" fill-rule="evenodd" d="M 187.496094 211.984375 L 187.496094 247.976562 L 100.773438 247.976562 L 100.773438 234.4375 Z M 187.496094 143.183594 L 187.496094 188.324219 L 100.773438 212.8125 L 100.773438 183.519531 Z M 100.773438 162.453125 L 187.496094 121.054688 L 187.496094 87.371094 L 100.773438 137.457031 Z"></path></svg>
+    <span style="display:flex;flex-direction:column;gap:2px">
+      <span style="font-family:Archivo,sans-serif;font-weight:800;font-stretch:112%;font-size:18px;letter-spacing:0.04em;color:#111">MC CRÉPI</span>
+      <span style="font-size:8.5px;font-weight:600;letter-spacing:0.24em;color:#6E6E6E">EMBELLIR · ISOLER · PROTÉGER</span>
+    </span>
+  </a>
+  <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
+    <nav style="display:flex;align-items:center;gap:34px">
+      <a href="Accueil.dc.html" style="font-size:12.5px;font-weight:600;letter-spacing:0.1em;color:#3A3A3A;border-bottom:2px solid transparent;padding-bottom:4px">ACCUEIL</a>
+      <a href="Prestations.dc.html" style="font-size:12.5px;font-weight:600;letter-spacing:0.1em;color:#3A3A3A;border-bottom:2px solid transparent;padding-bottom:4px">PRESTATIONS</a>
+      <a href="Realisations.dc.html" style="font-size:12.5px;font-weight:600;letter-spacing:0.1em;color:#3A3A3A;border-bottom:2px solid transparent;padding-bottom:4px">RÉALISATIONS</a>
+      <a href="Contact.dc.html" style="font-size:12.5px;font-weight:700;letter-spacing:0.1em;color:#111;border-bottom:2px solid var(--accent,#F28C28);padding-bottom:4px">CONTACT</a>
+    </nav>
+  </sc-if>
+  <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
+    <a href="tel:+33687596047" style="display:flex;align-items:center;gap:9px;background:#111;color:#FFFFFF;padding:13px 22px;border-radius:2px;font-family:Archivo,sans-serif;font-weight:800;font-size:12.5px;letter-spacing:0.06em" style-hover="background:#000;color:#FFFFFF;transform:translateY(-1px)"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>06 87 59 60 47</a>
+  </sc-if>
+  <sc-if value="{{ isMobile }}">
+    <button onClick="{{ toggleMenu }}" aria-label="Menu" style="width:44px;height:44px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;background:transparent;border:1px solid #DDDBD5;border-radius:2px;cursor:pointer;padding:0">
+      <span style="width:18px;height:2px;background:#111;display:block"></span>
+      <span style="width:18px;height:2px;background:var(--accent,#F28C28);display:block"></span>
+      <span style="width:18px;height:2px;background:#111;display:block"></span>
+    </button>
+  </sc-if>
+</header>
+
+<sc-if value="{{ menuOpen }}">
+  <div style="position:fixed;inset:0;z-index:99;background:#FAFAF8;display:flex;flex-direction:column;justify-content:center;padding:0 32px;gap:6px">
+    <a href="Accueil.dc.html" style="font-family:Archivo,sans-serif;font-weight:900;font-stretch:112%;font-size:36px;color:#111;padding:10px 0;border-bottom:1px solid #ECEAE5">Accueil</a>
+    <a href="Prestations.dc.html" style="font-family:Archivo,sans-serif;font-weight:900;font-stretch:112%;font-size:36px;color:#111;padding:10px 0;border-bottom:1px solid #ECEAE5">Prestations</a>
+    <a href="Realisations.dc.html" style="font-family:Archivo,sans-serif;font-weight:900;font-stretch:112%;font-size:36px;color:#111;padding:10px 0;border-bottom:1px solid #ECEAE5">Réalisations</a>
+    <a href="Contact.dc.html" style="font-family:Archivo,sans-serif;font-weight:900;font-stretch:112%;font-size:36px;color:var(--accent,#F28C28);padding:10px 0;border-bottom:1px solid #ECEAE5">Contact</a>
+    <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:26px">
+      <a href="tel:+33687596047" style="background:#111;color:#fff;padding:16px 24px;border-radius:2px;font-weight:700;font-size:14px">06 87 59 60 47</a>
+      <a href="https://wa.me/33687596047" target="_blank" rel="noopener" style="background:#25D366;color:#fff;padding:16px 24px;border-radius:2px;font-weight:700;font-size:14px">WhatsApp</a>
+    </div>
+  </div>
+</sc-if>
+
+<section data-screen-label="Contact — Hero" style="padding:160px clamp(20px,4.5vw,56px) 20px;background:#FAFAF8">
+  <div style="max-width:1500px;margin:0 auto">
+    <div style="display:flex;align-items:center;gap:12px;margin-bottom:18px;font-size:11.5px;font-weight:600;color:#6E6E6E">
+      <a href="Accueil.dc.html" style="color:#6E6E6E">Accueil</a><span style="color:#C7C4BD">/</span><span style="color:#111;font-weight:700">Contact &amp; devis</span>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:26px">
+      <div>
+        <div style="display:flex;align-items:center;gap:14px;margin-bottom:18px"><span style="width:46px;height:2px;background:var(--accent,#F28C28);display:block"></span><span style="font-size:11.5px;font-weight:700;letter-spacing:0.22em;color:#3A3A3A">DEVIS GRATUIT</span></div>
+        <h1 style="margin:0;font-family:Archivo,sans-serif;font-weight:900;font-stretch:116%;font-size:clamp(44px,7vw,104px);line-height:0.92;letter-spacing:-0.025em;color:#111">Parlons de<br>votre projet<span style="color:var(--accent,#F28C28)">.</span></h1>
+      </div>
+      <div style="display:inline-flex;align-items:center;gap:10px;background:#232220;color:#FFFFFF;padding:12px 18px;border-radius:2px">
+        <span style="width:8px;height:8px;border-radius:50%;background:var(--accent,#F28C28);display:block"></span>
+        <span style="font-size:12.5px;font-weight:600;letter-spacing:0.04em">Réponse sous 24–48 h</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Contact + Formulaire" style="padding:44px clamp(20px,4.5vw,56px) clamp(70px,9vw,120px);background:#FAFAF8">
+  <div style="max-width:1500px;margin:0 auto;display:flex;flex-wrap:wrap;gap:clamp(32px,4vw,64px);align-items:flex-start">
+
+    <div style="flex:1 1 340px;min-width:300px;position:sticky;top:110px">
+      <h2 style="margin:0 0 22px;font-family:Archivo,sans-serif;font-weight:800;font-stretch:112%;font-size:24px;color:#111">Coordonnées</h2>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <a href="tel:+33687596047" style="display:flex;align-items:center;gap:16px;background:#FFFFFF;border:1px solid #ECEAE5;padding:18px 20px;border-radius:2px" style-hover="border-color:var(--accent,#F28C28);transform:translateX(3px)">
+          <span style="width:42px;height:42px;flex:none;border-radius:2px;background:var(--accent,#F28C28);display:flex;align-items:center;justify-content:center"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span>
+          <span style="display:flex;flex-direction:column;gap:2px"><span style="font-size:10.5px;font-weight:700;letter-spacing:0.14em;color:#9A968F">TÉLÉPHONE</span><span style="font-family:Archivo,sans-serif;font-weight:700;font-size:18px;color:#111">06 87 59 60 47</span></span>
+        </a>
+        <a href="mailto:zaff39@hotmail.fr" style="display:flex;align-items:center;gap:16px;background:#FFFFFF;border:1px solid #ECEAE5;padding:18px 20px;border-radius:2px" style-hover="border-color:var(--accent,#F28C28);transform:translateX(3px)">
+          <span style="width:42px;height:42px;flex:none;border-radius:2px;background:#232220;display:flex;align-items:center;justify-content:center"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M22 7l-10 6L2 7"></path></svg></span>
+          <span style="display:flex;flex-direction:column;gap:2px"><span style="font-size:10.5px;font-weight:700;letter-spacing:0.14em;color:#9A968F">EMAIL</span><span style="font-family:Archivo,sans-serif;font-weight:700;font-size:16px;color:#111">zaff39@hotmail.fr</span></span>
+        </a>
+        <a href="https://wa.me/33687596047" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:16px;background:#FFFFFF;border:1px solid #ECEAE5;padding:18px 20px;border-radius:2px" style-hover="border-color:#25D366;transform:translateX(3px)">
+          <span style="width:42px;height:42px;flex:none;border-radius:2px;background:#25D366;display:flex;align-items:center;justify-content:center"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884"></path></svg></span>
+          <span style="display:flex;flex-direction:column;gap:2px"><span style="font-size:10.5px;font-weight:700;letter-spacing:0.14em;color:#9A968F">WHATSAPP</span><span style="font-family:Archivo,sans-serif;font-weight:700;font-size:16px;color:#111">Message direct</span></span>
+        </a>
+        <div style="display:flex;align-items:center;gap:16px;background:#FFFFFF;border:1px solid #ECEAE5;padding:18px 20px;border-radius:2px">
+          <span style="width:42px;height:42px;flex:none;border-radius:2px;background:#EDEBE6;display:flex;align-items:center;justify-content:center"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#3A3A3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg></span>
+          <span style="display:flex;flex-direction:column;gap:2px"><span style="font-size:10.5px;font-weight:700;letter-spacing:0.14em;color:#9A968F">SECTEUR</span><span style="font-size:14px;font-weight:600;color:#111">Lons-le-Saunier · Jura · Bourg-en-Bresse</span></span>
+        </div>
+        <div style="display:flex;align-items:center;gap:16px;background:#FFFFFF;border:1px solid #ECEAE5;padding:18px 20px;border-radius:2px">
+          <span style="width:42px;height:42px;flex:none;border-radius:2px;background:#EDEBE6;display:flex;align-items:center;justify-content:center"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="#3A3A3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg></span>
+          <span style="display:flex;flex-direction:column;gap:2px"><span style="font-size:10.5px;font-weight:700;letter-spacing:0.14em;color:#9A968F">HORAIRES</span><span style="font-size:14px;font-weight:600;color:#111">Lundi – Samedi · 8 h – 19 h</span></span>
+        </div>
+      </div>
+    </div>
+
+    <div style="flex:1.5 1 460px;min-width:300px;background:#FFFFFF;border:1px solid #ECEAE5;padding:clamp(24px,3vw,40px)">
+      <sc-if value="{{ formSent }}">
+        <div style="display:flex;flex-direction:column;align-items:flex-start;gap:14px;padding:20px 0">
+          <span style="width:54px;height:54px;border-radius:50%;background:var(--accent,#F28C28);display:flex;align-items:center;justify-content:center"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#111" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"></path></svg></span>
+          <h2 style="margin:0;font-family:Archivo,sans-serif;font-weight:800;font-size:26px;color:#111">Demande envoyée, merci !</h2>
+          <p style="margin:0;font-size:15px;line-height:1.7;color:#55524C;max-width:440px">Zafer revient vers vous sous 24 à 48 h avec un devis. Besoin d'une réponse plus rapide ? Appelez le <a href="tel:+33687596047" style="color:var(--accent,#F28C28);font-weight:700">06 87 59 60 47</a> ou écrivez sur <a href="https://wa.me/33687596047" target="_blank" rel="noopener" style="color:var(--accent,#F28C28);font-weight:700">WhatsApp</a>.</p>
+        </div>
+      </sc-if>
+      <sc-if value="{{ formOpen }}" hint-placeholder-val="{{ true }}">
+      <form action="https://formsubmit.co/zaff39@hotmail.fr" method="POST" enctype="multipart/form-data" target="_blank" onSubmit="{{ onSubmit }}">
+        <input type="hidden" name="_subject" value="Nouvelle demande de devis — MC Crépi">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <h2 style="margin:0 0 4px;font-family:Archivo,sans-serif;font-weight:800;font-stretch:112%;font-size:24px;color:#111">Votre demande de devis</h2>
+        <p style="margin:0 0 24px;font-size:13.5px;color:#6E6E6E">Les champs marqués d'un <span style="color:var(--accent,#F28C28)">*</span> sont obligatoires.</p>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px">
+          <label style="display:flex;flex-direction:column;gap:7px"><span style="font-size:12px;font-weight:600;color:#3A3A3A">Nom complet <span style="color:var(--accent,#F28C28)">*</span></span><input required name="Nom" type="text" placeholder="Prénom et nom" style="border:1px solid #DCD9D2;border-radius:2px;padding:13px 14px;font-size:14px;color:#111;background:#FAFAF8;outline:none" style-focus="border-color:var(--accent,#F28C28);background:#FFFFFF"></label>
+          <label style="display:flex;flex-direction:column;gap:7px"><span style="font-size:12px;font-weight:600;color:#3A3A3A">Téléphone <span style="color:var(--accent,#F28C28)">*</span></span><input required name="Téléphone" type="tel" placeholder="06 __ __ __ __" style="border:1px solid #DCD9D2;border-radius:2px;padding:13px 14px;font-size:14px;color:#111;background:#FAFAF8;outline:none" style-focus="border-color:var(--accent,#F28C28);background:#FFFFFF"></label>
+          <label style="display:flex;flex-direction:column;gap:7px"><span style="font-size:12px;font-weight:600;color:#3A3A3A">Email</span><input name="Email" type="email" placeholder="vous@email.fr" style="border:1px solid #DCD9D2;border-radius:2px;padding:13px 14px;font-size:14px;color:#111;background:#FAFAF8;outline:none" style-focus="border-color:var(--accent,#F28C28);background:#FFFFFF"></label>
+          <label style="display:flex;flex-direction:column;gap:7px"><span style="font-size:12px;font-weight:600;color:#3A3A3A">Surface approximative</span><input name="Surface approx" type="text" inputmode="numeric" placeholder="ex : 120 m²" style="border:1px solid #DCD9D2;border-radius:2px;padding:13px 14px;font-size:14px;color:#111;background:#FAFAF8;outline:none" style-focus="border-color:var(--accent,#F28C28);background:#FFFFFF"></label>
+        </div>
+        <label style="display:flex;flex-direction:column;gap:7px;margin-top:16px"><span style="font-size:12px;font-weight:600;color:#3A3A3A">Adresse du chantier</span><input name="Adresse du chantier" type="text" placeholder="N°, rue, commune (39 / 01)" style="border:1px solid #DCD9D2;border-radius:2px;padding:13px 14px;font-size:14px;color:#111;background:#FAFAF8;outline:none" style-focus="border-color:var(--accent,#F28C28);background:#FFFFFF"></label>
+        <label style="display:flex;flex-direction:column;gap:7px;margin-top:16px"><span style="font-size:12px;font-weight:600;color:#3A3A3A">Type de projet <span style="color:var(--accent,#F28C28)">*</span></span>
+          <select required name="Type de projet" style="border:1px solid #DCD9D2;border-radius:2px;padding:13px 14px;font-size:14px;color:#111;background:#FAFAF8;outline:none;cursor:pointer" style-focus="border-color:var(--accent,#F28C28);background:#FFFFFF">
+            <option value="" disabled selected>Choisir…</option>
+            <option>Ravalement / rénovation de façade</option>
+            <option>Façade de maison neuve</option>
+            <option>Isolation extérieure (ITE)</option>
+            <option>Mur de jardin / clôture</option>
+            <option>Garage / abri de jardin</option>
+            <option>Parement ou joints de pierre</option>
+            <option>Autre</option>
+          </select>
+        </label>
+        <label style="display:flex;flex-direction:column;gap:7px;margin-top:16px"><span style="font-size:12px;font-weight:600;color:#3A3A3A">Décrivez votre projet</span><textarea name="Description" rows="4" placeholder="État actuel de la façade, teinte souhaitée, délais, contraintes…" style="border:1px solid #DCD9D2;border-radius:2px;padding:13px 14px;font-size:14px;color:#111;background:#FAFAF8;outline:none;resize:vertical" style-focus="border-color:var(--accent,#F28C28);background:#FFFFFF"></textarea></label>
+        <div style="margin-top:20px">
+          <span style="font-size:12px;font-weight:600;color:#3A3A3A;display:block;margin-bottom:10px">Créneau de rappel souhaité</span>
+          <div style="display:flex;flex-wrap:wrap;gap:10px">
+            <label style="display:flex;align-items:center;gap:8px;border:1px solid #DCD9D2;border-radius:2px;padding:11px 16px;cursor:pointer;font-size:13.5px;color:#3A3A3A"><input type="radio" name="Créneau de rappel" value="Matin (8h–12h)" style="accent-color:var(--accent,#F28C28)">Matin (8 h – 12 h)</label>
+            <label style="display:flex;align-items:center;gap:8px;border:1px solid #DCD9D2;border-radius:2px;padding:11px 16px;cursor:pointer;font-size:13.5px;color:#3A3A3A"><input type="radio" name="Créneau de rappel" value="Après-midi (12h–18h)" style="accent-color:var(--accent,#F28C28)">Après-midi (12 h – 18 h)</label>
+            <label style="display:flex;align-items:center;gap:8px;border:1px solid #DCD9D2;border-radius:2px;padding:11px 16px;cursor:pointer;font-size:13.5px;color:#3A3A3A"><input type="radio" name="Créneau de rappel" value="Peu importe" checked style="accent-color:var(--accent,#F28C28)">Peu importe</label>
+          </div>
+        </div>
+        <label style="display:flex;flex-direction:column;gap:7px;margin-top:20px"><span style="font-size:12px;font-weight:600;color:#3A3A3A">Joindre des photos (façade actuelle, plans…)</span>
+          <input name="attachment" type="file" accept="image/*,.pdf" multiple="{{ true }}" style="font-size:13px;color:#55524C;border:1px dashed #CFCCC5;border-radius:2px;padding:16px 14px;background:#FAFAF8;cursor:pointer">
+          <span style="font-size:11.5px;color:#9A968F">JPG, PNG ou PDF — plusieurs fichiers possibles.</span>
+        </label>
+        <button type="submit" style="margin-top:26px;width:100%;background:var(--accent,#F28C28);color:#111;border:none;padding:18px;border-radius:2px;font-family:Archivo,sans-serif;font-weight:800;font-size:14px;letter-spacing:0.08em;cursor:pointer" style-hover="filter:brightness(0.93)">ENVOYER MA DEMANDE →</button>
+        <p style="margin:16px 0 0;font-size:11.5px;line-height:1.6;color:#9A968F;text-align:center">Vos informations sont transmises directement à Zafer (zaff39@hotmail.fr) et ne servent qu'à établir votre devis.</p>
+      </form>
+      </sc-if>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Zone d'intervention" style="background:#FFFFFF;border-top:1px solid #EFEDE8;padding:clamp(64px,8vw,110px) clamp(20px,4.5vw,56px)">
+  <div style="max-width:1500px;margin:0 auto;display:flex;flex-wrap:wrap;align-items:center;gap:48px clamp(40px,6vw,100px)">
+    <div style="flex:1 1 380px">
+      <div style="display:flex;align-items:center;gap:14px;margin-bottom:16px"><span style="width:46px;height:2px;background:var(--accent,#F28C28);display:block"></span><span style="font-size:11.5px;font-weight:700;letter-spacing:0.22em;color:#6E6E6E">ZONE D'INTERVENTION</span></div>
+      <h2 style="margin:0;font-family:Archivo,sans-serif;font-weight:800;font-stretch:114%;font-size:clamp(30px,4.2vw,52px);line-height:1.04;letter-spacing:-0.02em;color:#111">Un rayon de 50 km autour de Lons.</h2>
+      <p style="margin:20px 0 0;font-size:15px;line-height:1.75;color:#4A4A4A;max-width:460px;text-wrap:pretty">Bassin lédonien, vignoble jurassien, Bresse jusqu'à Bourg-en-Bresse. Un doute sur votre commune ? Appelez-nous, on vous répond tout de suite.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:9px;margin-top:24px">
+        <span style="background:var(--accent,#F28C28);color:#111;font-size:12.5px;font-weight:700;padding:8px 14px;border-radius:2px">Lons-le-Saunier</span>
+        <span style="border:1px solid #E4E2DC;background:#FAFAF8;color:#3A3A3A;font-size:12.5px;font-weight:500;padding:8px 14px;border-radius:2px">Montmorot</span>
+        <span style="border:1px solid #E4E2DC;background:#FAFAF8;color:#3A3A3A;font-size:12.5px;font-weight:500;padding:8px 14px;border-radius:2px">Perrigny</span>
+        <span style="border:1px solid #E4E2DC;background:#FAFAF8;color:#3A3A3A;font-size:12.5px;font-weight:500;padding:8px 14px;border-radius:2px">Bletterans</span>
+        <span style="border:1px solid #E4E2DC;background:#FAFAF8;color:#3A3A3A;font-size:12.5px;font-weight:500;padding:8px 14px;border-radius:2px">Poligny</span>
+        <span style="border:1px solid #E4E2DC;background:#FAFAF8;color:#3A3A3A;font-size:12.5px;font-weight:500;padding:8px 14px;border-radius:2px">Champagnole</span>
+        <span style="border:1px solid #E4E2DC;background:#FAFAF8;color:#3A3A3A;font-size:12.5px;font-weight:500;padding:8px 14px;border-radius:2px">Orgelet</span>
+        <span style="border:1px solid #E4E2DC;background:#FAFAF8;color:#3A3A3A;font-size:12.5px;font-weight:500;padding:8px 14px;border-radius:2px">Bourg-en-Bresse</span>
+      </div>
+    </div>
+    <div style="flex:1 1 340px;display:flex;justify-content:center">
+      <svg viewBox="0 0 420 420" style="width:min(400px,100%);height:auto" role="img" aria-label="Carte stylisée de la zone d'intervention autour de Lons-le-Saunier">
+        <circle cx="210" cy="210" r="62" fill="none" stroke="#DEDCD5" stroke-dasharray="4 7"></circle>
+        <circle cx="210" cy="210" r="124" fill="none" stroke="#DEDCD5" stroke-dasharray="4 7"></circle>
+        <circle cx="210" cy="210" r="186" fill="none" stroke="#DEDCD5" stroke-dasharray="4 7"></circle>
+        <text x="210" y="141" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#B5B2AA">15 km</text>
+        <text x="210" y="79" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#B5B2AA">30 km</text>
+        <text x="210" y="17" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#B5B2AA">50 km</text>
+        <circle cx="210" cy="210" r="17" style="fill:var(--accent,#F28C28)" opacity="0.18"></circle>
+        <circle cx="210" cy="210" r="7" style="fill:var(--accent,#F28C28)"></circle>
+        <text x="210" y="238" text-anchor="middle" font-family="Archivo,sans-serif" font-weight="800" font-size="11.5" fill="#111" letter-spacing="1">LONS-LE-SAUNIER</text>
+        <circle cx="176" cy="196" r="4" fill="#3A3A3A"></circle><text x="168" y="186" text-anchor="end" font-family="Inter,sans-serif" font-size="10" fill="#6E6E6E">Montmorot</text>
+        <circle cx="152" cy="152" r="4" fill="#3A3A3A"></circle><text x="144" y="144" text-anchor="end" font-family="Inter,sans-serif" font-size="10" fill="#6E6E6E">Bletterans</text>
+        <circle cx="252" cy="106" r="4" fill="#3A3A3A"></circle><text x="260" y="100" font-family="Inter,sans-serif" font-size="10" fill="#6E6E6E">Poligny</text>
+        <circle cx="322" cy="160" r="4" fill="#3A3A3A"></circle><text x="330" y="154" font-family="Inter,sans-serif" font-size="10" fill="#6E6E6E">Champagnole</text>
+        <circle cx="248" cy="316" r="4" fill="#3A3A3A"></circle><text x="256" y="330" font-family="Inter,sans-serif" font-size="10" fill="#6E6E6E">Orgelet</text>
+        <circle cx="82" cy="362" r="5.5" fill="none" style="stroke:var(--accent,#F28C28)" stroke-width="2"></circle><text x="74" y="380" text-anchor="end" font-family="Inter,sans-serif" font-size="10" font-weight="600" fill="#3A3A3A">Bourg-en-Bresse</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<footer data-screen-label="Footer" style="background:#191918;color:rgba(255,255,255,0.75);padding:clamp(56px,7vw,84px) clamp(20px,4.5vw,56px) 32px">
+  <div style="max-width:1500px;margin:0 auto">
+    <div style="display:flex;flex-wrap:wrap;gap:48px clamp(40px,5vw,90px)">
+      <div style="flex:2 1 280px;max-width:360px">
+        <div style="display:flex;align-items:center;gap:12px">
+          <svg width="38" height="35" viewBox="100.7 87.3 173.6 160.8" aria-hidden="true"><path fill="#F4F3F3" fill-rule="evenodd" d="M 274.222656 234.4375 L 274.222656 247.976562 L 100.773438 247.976562 L 100.773438 234.4375 L 187.496094 211.984375 Z M 274.222656 183.476562 L 274.222656 212.769531 L 187.496094 188.28125 L 100.773438 212.769531 L 100.773438 183.476562 L 187.496094 143.140625 Z M 100.773438 162.453125 L 187.496094 121.054688 L 274.222656 162.453125 L 274.222656 137.457031 L 187.496094 87.371094 L 100.773438 137.457031 Z"></path><path style="fill:var(--accent,#F28C28)" fill-rule="evenodd" d="M 187.496094 211.984375 L 187.496094 247.976562 L 100.773438 247.976562 L 100.773438 234.4375 Z M 187.496094 143.183594 L 187.496094 188.324219 L 100.773438 212.8125 L 100.773438 183.519531 Z M 100.773438 162.453125 L 187.496094 121.054688 L 187.496094 87.371094 L 100.773438 137.457031 Z"></path></svg>
+          <span style="display:flex;flex-direction:column;gap:2px"><span style="font-family:Archivo,sans-serif;font-weight:800;font-stretch:112%;font-size:17px;letter-spacing:0.04em;color:#FFFFFF">MC CRÉPI</span><span style="font-size:8px;font-weight:600;letter-spacing:0.24em;color:rgba(255,255,255,0.5)">EMBELLIR · ISOLER · PROTÉGER</span></span>
+        </div>
+        <p style="margin:20px 0 0;font-size:13.5px;line-height:1.75;color:rgba(255,255,255,0.62);text-wrap:pretty">Façadier artisan à Lons-le-Saunier. Ravalement, enduits, isolation par l'extérieur, murs, garages et pierre — pour les maisons individuelles du Jura et de l'Ain.</p>
+      </div>
+      <div style="flex:1 1 130px">
+        <p style="margin:0 0 16px;font-size:10.5px;font-weight:700;letter-spacing:0.22em;color:rgba(255,255,255,0.45)">PAGES</p>
+        <div style="display:flex;flex-direction:column;gap:11px">
+          <a href="Accueil.dc.html" style="font-size:13.5px;color:rgba(255,255,255,0.82)">Accueil</a>
+          <a href="Prestations.dc.html" style="font-size:13.5px;color:rgba(255,255,255,0.82)">Prestations</a>
+          <a href="Realisations.dc.html" style="font-size:13.5px;color:rgba(255,255,255,0.82)">Réalisations</a>
+          <a href="Contact.dc.html" style="font-size:13.5px;color:rgba(255,255,255,0.82)">Contact &amp; devis</a>
+        </div>
+      </div>
+      <div style="flex:1 1 170px">
+        <p style="margin:0 0 16px;font-size:10.5px;font-weight:700;letter-spacing:0.22em;color:rgba(255,255,255,0.45)">PRESTATIONS</p>
+        <div style="display:flex;flex-direction:column;gap:11px;font-size:13.5px;color:rgba(255,255,255,0.62)">
+          <span>Ravalement de façade</span><span>Façades neuves</span><span>Isolation extérieure (ITE)</span><span>Murs, garages &amp; abris</span><span>Parement &amp; joints de pierre</span>
+        </div>
+      </div>
+      <div style="flex:1 1 200px">
+        <p style="margin:0 0 16px;font-size:10.5px;font-weight:700;letter-spacing:0.22em;color:rgba(255,255,255,0.45)">CONTACT</p>
+        <div style="display:flex;flex-direction:column;gap:11px">
+          <a href="tel:+33687596047" style="font-size:14.5px;font-weight:700;color:#FFFFFF">06 87 59 60 47</a>
+          <a href="mailto:zaff39@hotmail.fr" style="font-size:13.5px;color:rgba(255,255,255,0.82)">zaff39@hotmail.fr</a>
+          <a href="https://wa.me/33687596047" target="_blank" rel="noopener" style="font-size:13.5px;color:rgba(255,255,255,0.82)">WhatsApp direct</a>
+          <span style="font-size:13px;color:rgba(255,255,255,0.62)">Lons-le-Saunier (39) · Jura</span>
+          <span style="font-size:13px;color:rgba(255,255,255,0.62)">Lun – Sam · 8 h – 19 h</span>
+        </div>
+      </div>
+    </div>
+    <div style="border-top:1px solid rgba(255,255,255,0.12);margin-top:52px;padding-top:22px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 24px;font-size:11.5px;color:rgba(255,255,255,0.42)">
+      <span>© 2026 MC Crépi — Tous droits réservés</span><span>Garantie décennale · Assurance RC Pro</span><span>Photos d'illustration — en attente des photos de chantier</span>
+    </div>
+  </div>
+</footer>
+
+<sc-if value="{{ showWhatsapp }}" hint-placeholder-val="{{ true }}">
+  <a href="https://wa.me/33687596047" target="_blank" rel="noopener" aria-label="Écrire sur WhatsApp" style="position:fixed;right:20px;bottom:20px;z-index:120;width:54px;height:54px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(37,211,102,0.42)" style-hover="transform:scale(1.08)">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="#FFFFFF"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413"></path></svg>
+  </a>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;accent&quot;: { &quot;editor&quot;: &quot;color&quot;, &quot;default&quot;: &quot;#F28C28&quot;, &quot;options&quot;: [&quot;#F28C28&quot;, &quot;#FF7A00&quot;, &quot;#E8620C&quot;, &quot;#FFA13B&quot;], &quot;tsType&quot;: &quot;string&quot;, &quot;section&quot;: &quot;Style&quot; },
+  &quot;showWhatsapp&quot;: { &quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Contenu&quot; }
+}">
+class Component extends DCLogic {
+  state = { menuOpen: false, isMobile: typeof window !== "undefined" && window.matchMedia("(max-width:920px)").matches, sent: false };
+  componentDidMount() {
+    this.applyVars();
+    this.mql = window.matchMedia("(max-width:920px)");
+    this.onMql = (e) => this.setState({ isMobile: e.matches, menuOpen: false });
+    this.mql.addEventListener("change", this.onMql);
+    this.setupHeader();
+  }
+  componentDidUpdate() { this.applyVars(); }
+  componentWillUnmount() {
+    window.removeEventListener("scroll", this.onScroll);
+    if (this.mql) this.mql.removeEventListener("change", this.onMql);
+  }
+  applyVars() { document.body.style.setProperty("--accent", this.props.accent ?? "#F28C28"); }
+  setupHeader() {
+    const header = document.getElementById("mc-header");
+    let ticking = false;
+    this.onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        ticking = false;
+        const on = window.scrollY > 40;
+        if (header && on !== this._hOn) {
+          this._hOn = on;
+          header.style.background = on ? "rgba(255,255,255,0.93)" : "transparent";
+          header.style.backdropFilter = on ? "blur(14px)" : "none";
+          header.style.webkitBackdropFilter = on ? "blur(14px)" : "none";
+          header.style.boxShadow = on ? "0 1px 0 rgba(17,17,17,0.09)" : "none";
+          header.style.paddingTop = on ? "12px" : "26px";
+          header.style.paddingBottom = on ? "12px" : "26px";
+        }
+      });
+    };
+    window.addEventListener("scroll", this.onScroll, { passive: true });
+    this.onScroll();
+  }
+  renderVals() {
+    return {
+      isMobile: this.state.isMobile,
+      isDesktop: !this.state.isMobile,
+      menuOpen: this.state.menuOpen && this.state.isMobile,
+      toggleMenu: () => this.setState((s) => ({ menuOpen: !s.menuOpen })),
+      closeMenu: () => this.setState({ menuOpen: false }),
+      showWhatsapp: this.props.showWhatsapp ?? true,
+      formSent: this.state.sent,
+      formOpen: !this.state.sent,
+      onSubmit: () => { this.setState({ sent: true }); }
+    };
+  }
+}
+</script>
+</body>
+</html>
