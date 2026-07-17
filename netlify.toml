@@ -1,0 +1,19 @@
+# Déploiement Netlify — le site est un dossier statique, aucun build nécessaire.
+# On publie simplement le contenu du dossier `site/`.
+[build]
+  publish = "site"
+  command = ""
+
+# Renvoie les URLs propres (ex: /contact) vers les fichiers .html correspondants.
+[[redirects]]
+  from = "/contact"
+  to = "/contact.html"
+  status = 200
+[[redirects]]
+  from = "/prestations"
+  to = "/prestations.html"
+  status = 200
+[[redirects]]
+  from = "/realisations"
+  to = "/realisations.html"
+  status = 200

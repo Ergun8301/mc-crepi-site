@@ -1,0 +1,32 @@
+/* MC Crépi — base styles.
+   Rules copied verbatim from the Design Components prototypes' <style> block,
+   plus a few helpers that replace the prototype's runtime-only conditionals
+   (desktop/mobile show-hide). No visual change vs. the mockups. */
+
+:root { --accent: #F28C28; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 86px; }
+body { margin: 0; background: #FAFAF8; color: #1A1A1A; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+a { color: #111; text-decoration: none; transition: color .25s ease, background .25s ease, transform .25s ease, filter .25s ease, border-color .25s ease; }
+a:hover { color: var(--accent, #F28C28); }
+::selection { background: var(--accent, #F28C28); color: #111; }
+input, select, textarea { font-family: inherit; }
+input::placeholder, textarea::placeholder { color: #A8A49C; }
+
+/* Subtle concrete grain overlay (from the mockups). */
+body::after {
+  content: ""; position: fixed; inset: 0; pointer-events: none; z-index: 80;
+  opacity: .045; mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='180' height='180' filter='url(%23n)'/></svg>");
+}
+
+@keyframes mcBounce { 0%, 100% { transform: translate(-50%, 0); } 50% { transform: translate(-50%, 9px); } }
+
+/* Desktop / mobile switch — replaces the prototype's <sc-if isDesktop/isMobile>.
+   Breakpoint matches the mockups' matchMedia("(max-width:920px)"). */
+.mc-only-desktop { display: contents; }
+.mc-only-mobile  { display: none; }
+@media (max-width: 920px) {
+  .mc-only-desktop { display: none; }
+  .mc-only-mobile  { display: contents; }
+}

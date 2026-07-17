@@ -1,0 +1,14 @@
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Node (si un jour un outillage est ajouté)
+node_modules/
+npm-debug.log*
+
+# Divers
+*.log
+.netlify/
